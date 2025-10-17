@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo "갯수를 입력하세요 : "
+read n
+
+a=0
+b=1
+
+
+for((i=1;i<=n;i++))
+do
+	echo -n "$a "
+	let sum=a+b
+	let a=b
+	let b=sum
+done
+echo
+

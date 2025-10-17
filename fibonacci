@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "갯수를 입력하세요"
+read n
+
+init = 0
+next = 1
+
+echo "피보나치 수열"
+for((i=1;i<=n;i++));
+do
+	echo -n "$init "
+	let sum=init+next
+	let init=next
+	let next=sum
+done
+echo

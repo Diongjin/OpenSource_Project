@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for i in {2..9}; do
+	echo "------$i단 -------"
+	for j in {1..9}; do
+		echo "$i x $j = $((i * j))"
+	done
+done
