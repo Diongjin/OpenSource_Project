@@ -1,5 +1,0 @@
-= Start
-@ ./testmtrace:[0x11c4] + 0x58e235b064a0 0x50
-@ ./testmtrace:[0x11d2] + 0x58e235b06500 0x50
-@ ./testmtrace:[0x122c] - 0x58e235b064a0
-= End
