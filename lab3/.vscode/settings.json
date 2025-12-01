@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "stdlib.h": "c",
+        "pthread.h": "c",
+        "errno.h": "c",
+        "types.h": "c",
+        "select.h": "c"
+    }
+}
